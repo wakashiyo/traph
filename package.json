@@ -16,9 +16,15 @@
     "mocha": "mocha --watch-extensions ts -w --require espower-typescript/guess test/**/*.ts"
   },
   "nyc": {
-    "include": [ "src/**/*.ts" ],
-    "extension": [ ".ts" ],
-    "require": [ "ts-node/register" ],
+    "include": [
+      "src/**/*.ts"
+    ],
+    "extension": [
+      ".ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ],
     "reporter": [
       "text",
       "text-summary",
